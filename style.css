@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #00000033;
+    position: relative;
+}
+
+.main-top{
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+.main-top>img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.main-top>p{
+    position: absolute;
+    top: 50px;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    gap: 20px;
+}
+
+
+.main-top>p>span:last-child{
+    padding: 5px 10px;
+    background-color: #95AAD0;
+    border-radius: 22px;
+    font-size: 16px;
+}
+
+
+.main-data{
+    position: absolute;
+    top: 100px;
+    width: 100vw;
+    height: 80vh;
+    z-index: 99;
+    margin: auto;
+}
+
+.box{
+    width: 90%;
+    background-color: #FFFFFF;
+    height: 100%;
+    margin: auto;
+    border-radius:12px;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.main-data-left{
+    width: 50%;
+    height: 100%;
+    background-color: #D2D5DA;
+    padding: 20px;
+}
+
+
+.main-data-left>ul{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #00000033;
+    padding-bottom: 20px;
+}
+
+
+.main-data-left>ul>li{
+    list-style: none;
+}
+
+.list{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    gap: 20px;
+}
+
+.img{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F4F6;
+    border-radius: 12px;
+}
+
+.img>img{
+    width: 30%;
+    height: 100%;
+    padding: 1px;
+    object-fit: contain;
+}
+
+.content{
+    width: 85%;
+    position: relative;
+}
+
+.content-top{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content-left{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.last-img>img{
+    width: 70%;
+}
+
+
+
+.last-main-data{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.input>input{
+    width: 70%;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;   
+}
+
+
+.input>button{
+    width: 30%;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    background-color: black;
+    color: white;
+}
+
+
+.text-data{
+    margin-top: 20px;
+    font-size: 15px ;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-data-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.main-data-right{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.main-data-right>h3{
+    font-size: 15px;
+    color: black;
+}
+
+.content-data-list{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+.content-data{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.content-data>input{
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid #D2D5DA;
+    border-radius: 5px;
+    background-color: #F3F4F6;
+}
+
+
+.daat{
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.content-data-left{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.content-data-left>select{
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #D2D5DA;
+    border-radius: 5px;
+    background-color: #F3F4F6;
+    outline: none;
+}
+
+.content-data-right{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.content-data-right>input{
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid #D2D5DA;
+    border-radius: 5px;
+    background-color: #F3F4F6;
+}
+
+
+.content-data>button{
+    padding: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 17px;
+}
